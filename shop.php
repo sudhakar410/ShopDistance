@@ -1,19 +1,6 @@
 <?php
 
 include "config.php";
-// Database connection parameters
-/*$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "datasense";
-
-// Create a connection to the database
-$conn = new mysqli($servername, $username, $password, $database);
-
-// Check the connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}*/
 
 // Function to sanitize user inputs
 function sanitize_input($data) {
